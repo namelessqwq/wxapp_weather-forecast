@@ -1,0 +1,7 @@
+  function handleToFixed(price) {
+    return price.toFixed(2)
+  }
+
+  module.exports =  {
+    handleToFixed: handleToFixed
+  }

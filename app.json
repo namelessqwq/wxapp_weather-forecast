@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/wxs/wxs",
+    "pages/about/about"
+  ],
+  "sitemapLocation": "sitemap2.json",
+  "window": {
+    "navigationBarTitleText": "天气预报"
+  }
+}

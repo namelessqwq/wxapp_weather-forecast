@@ -1,0 +1,12 @@
+<!--pages/wxs/wxs.wxml-->
+<wxs src="./wxs.wxs" module="format" />
+<block wx:for="{{fruits}}">
+  <view bindtap="handleItemClick"
+        data-item="{{item}}"
+        data-index="{{index}}">
+    {{item}}
+  </view>
+</block>
+<my-cpn title="123" titleclass="red"></my-cpn>
+<my-cpn title="456" titleclass="green"></my-cpn>
+<my-cpn titleclass="blue"></my-cpn>

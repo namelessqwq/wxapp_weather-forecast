@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-cpn": "/components/my-cpn/my-cpn"
+
+  }
+}

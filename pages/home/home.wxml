@@ -1,0 +1,20 @@
+<view class="container">
+<view class="weather yesterday">
+<view>
+<view class='date'>今天</view>
+<view class='location'>{{current_city}}</view>
+<view class='tmp'>{{tmp_min}}℃~{{tmp_max}}℃</view>
+<view class='cond_txt'>{{cond_txt_d}}</view>
+</view>
+<view>
+<view class='weather_icon'>
+
+</view>
+
+</view>
+</view>
+</view>
+<text>选择城市</text>
+<button size="mini" bindtap="changeCityBJ">北京市</button>
+<button size="mini" bindtap="changeCitySH">上海市</button>
+<button size="mini" bindtap="changeCityWH">武汉市</button>
